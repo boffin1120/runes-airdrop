@@ -1,15 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { RouterProvider } from "react-router-dom";
+import Layouts from "./layouts";
+import { router } from "./router"; // Ensure PageRouter is a correctly configured router object
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </div>
+    <Layouts>
+      <RouterProvider router={router} />
+    </Layouts>
   );
-}
+};
 
 export default App;
