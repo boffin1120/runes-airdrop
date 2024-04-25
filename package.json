@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@rainbow-me/rainbowkit": "^2.0.5",
+    "@tanstack/react-query": "^5.32.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -12,9 +14,11 @@
     "@types/react-dom": "^18.2.25",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^5.1.0",
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
+    "wagmi": "^2.5.20",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
