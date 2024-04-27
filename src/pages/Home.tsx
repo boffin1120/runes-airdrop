@@ -18,7 +18,7 @@ export default function Home({}: Props) {
               </div>
             </div>
           </div>
-          <img className="ape-fixed" src="/assets/images/hero-img.png" alt="" />
+          <img className="ape-fixed" src="/assets/images/rune-stone.png" alt="" />
       </section>
   </div>;
 }
