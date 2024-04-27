@@ -9,7 +9,7 @@ export default function Layouts({ children }: Props) {
     <div>
       <Header />
 
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 py-[40px]">
+      <div className="">
         {children}
       </div>
     </div>
